@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Adam J Berkowitz - Developer Journal
+greeting: Feel free to ask a question, tell me something new, or just say hi!
+email: adam@adamjberkowitz.com
+description: > # this means to ignore newlines until "baseurl:"
+  My personal blog/developer journal. Come here to find out what I've been working on, who I've been working for, problems I've faced, and solutions I've found.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: adamjberkowitz
+github_username:  aberkow
+
+# Build settings
+markdown: kramdown
