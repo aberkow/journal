@@ -20,7 +20,7 @@ layout: default
 
   {% if page.featuredImage %}
     <div class="featured-image">
-      <img src="{{ page.featuredImage }}" alt="">
+      <img src="{{ page.featuredImage | prepend:site.github.url }}/{{ page.featuredImage }}" alt="Featured Image">
     </div>
   {% endif %}
 
