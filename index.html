@@ -10,7 +10,10 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <div class="post-featuredImage-wrapper">
+          <!-- Get the featured image of the post and display it. -->
+          <img src="{{ site.baseurl }}{{ post.featuredImage }}" alt="Featured Image for {{ post.title }}"/>
+        </div>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
