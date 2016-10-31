@@ -20,8 +20,8 @@ layout: default
 
   {% if page.featuredImage %}
     <div class="featured-image-wrapper">
-      <!-- <img src="{{ page.categories }}/{{ page.featuredImage | prepend:site.github.url }}" alt="Featured Image"> -->
-      <img src="{{ page.featuredImage | prepend: site.baseurl }}" alt="Featured Image">
+      <img src="{{ page.categories }}/{{ page.featuredImage | prepend:site.github.url }}" alt="Featured Image">
+      <!-- <img src="{{ page.featuredImage | prepend: site.baseurl }}/assets/post-images" alt="Featured Image"> -->
     </div>
   {% endif %}
 
