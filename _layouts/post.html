@@ -19,8 +19,8 @@ layout: default
   </header>
 
   {% if page.featuredImage %}
-    <div class="featured-image">
-      <img src="{{ page.featuredImage | prepend:site.github.url }}" alt="Featured Image">
+    <div class="featured-image-wrapper">
+      <img src="/{{ page.featuredImage | prepend:site.github.url }}" alt="Featured Image">
     </div>
   {% endif %}
 
