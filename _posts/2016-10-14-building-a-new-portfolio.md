@@ -3,7 +3,7 @@ layout: post
 title:  "Building a new portfolio"
 date:   2016-10-14 10:23:42 -0400
 author: "Adam Berkowitz"
-featuredImage: /assets/post-images/2016-10-21/two-coding-books.jpg
+featuredImage: 2016-10-21/two-coding-books.jpg
 categories: portfolio
 ---
 I’ve decided to start keeping a journal of what I learn as a developer. To start the process, I’m going to write about how I’m going about building a new portfolio. The one I have is fine(ish), but I feel like a successful portfolio should combine a few things.
